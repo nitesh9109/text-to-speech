@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+#input {
+    max-width: 600px;
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-size: 20px;
+    border: 2px solid gray;
+    outline: none;
+}
+
+#btn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: rgb(58, 91, 198);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(40, 70, 171);
+}

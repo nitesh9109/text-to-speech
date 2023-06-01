@@ -1,6 +1,7 @@
-function sum(x, y) {
-  return x + y;
-}
+let input = document.querySelector("#input");
+let btn = document.querySelector("#btn");
 
-console.log("the sum is : ", sum(4, 5));
-
+btn.addEventListener("click", () => {
+  let x = new SpeechSynthesisUtterance(input.value);
+  speechSynthesis.speak(x);
+});
